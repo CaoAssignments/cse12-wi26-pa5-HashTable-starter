@@ -313,7 +313,7 @@ Below is the spec you've prepared for your algorithm. To get full credit, your i
 
 |Method Name|Description|Exceptions to Throw|
 |-----------|-----------|-------------------|
-|`public static boolean hasFraudulentTRs(int[] transactionIds, int certainty)`|You are given an array of integers. If there are two integers `i` and `j`, where `i==j` and `i` and `j` are at most `certainty` spaces apart then return True. Otherwise, return False. You may assume `transactionIds` will be of any length and not null. **Hint:** You are allowed to use `Math.abs()` if it would be helpful. |If `certainty` <= 0 then throw `IllegalArgumentException`.| 
+|`public static boolean hasFraudulentTRs(int[] transactionIds, int certainty)`|You are given an array of integers. If there are two integers `i` and `j`, where `i==j` and `i` and `j` are at most `certainty` spaces apart then return True. Otherwise, return False. You may assume `transactionIds` will be of any length and not null. You are allowed to use `Math.abs()` if it would be helpful. |If `certainty` <= 0 then throw `IllegalArgumentException`.| 
 
 **NOTE:** If you would like to reuse or write additional tests for this part, write them in a different file so `MyAlgorithm` isn't accidentally flagged wrong by the autograder.<br>
 
