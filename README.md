@@ -377,50 +377,50 @@ We use an array of type `Node` as the underlying data structure. Assume all hash
 
 **MyHashMap should look like after initialization:**
 
-![ht init](https://imgur.com/NRVNJtJ)
+![ht init](https://i.imgur.com/NRVNJtJ.png)
 
 After calling the constructor, `size` should be 0. All of the indices of our array should be `null`.
 
 **After calling `put("A", 1)`:**
 
-![ht put A](https://imgur.com/5456BgL)
+![ht put A](https://i.imgur.com/5456BgL.png)
 
 `null` should be returned. `size` is 1.
 
 **After calling `put("G", 7)`:**
 
-![ht put G](https://imgur.com/M310TOB)
+![ht put G](https://i.imgur.com/M310TOB.png)
 
 `null` should be returned. `size` is 2.
 
 **After calling `put("B", 2)`:**
 
-![ht put B](https://imgur.com/rHZUspO)
+![ht put B](https://i.imgur.com/rHZUspO.png)
 
 
 `null` should be returned. `size` is 3.
 
 **After calling `remove("G")`:**
 
-![ht remove G](https://imgur.com/sKVCTnh)
+![ht remove G](https://i.imgur.com/sKVCTnh.png)
 
 
 `7` should be returned. `size` is 2.
 
 **After calling `put("F", 6)`:**
 
-![ht put F](https://imgur.com/2CeDOnb)
+![ht put F](https://i.imgur.com/2CeDOnb.png)
 
 `null` should be returned. `size` is 3.
 
 **After calling `put("A", 2)`:**
 
-![ht put A again](https://imgur.com/68UgfhG)
+![ht put A again](https://i.imgur.com/68UgfhG.png)
 
 The value at node A is replaced. `1` should be returned. `size` is 3.
 
 **After manually calling `expandCapacity()`:**
 
-![ht expandCapacity](https://imgur.com/EnsoeXy)
+![ht expandCapacity](https://i.imgur.com/EnsoeXy.png)
 
 All nodes, including nodes in the same chain, are re-hashed.
