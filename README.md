@@ -377,50 +377,50 @@ We use an array of type `Node` as the underlying data structure. Assume all hash
 
 **MyHashMap should look like after initialization:**
 
-<img width="1180" height="482" alt="ht1" src="https://github.com/user-attachments/assets/d823236f-d191-42f1-8f27-c3caf25910e5" />
+![ht init](https://imgur.com/NRVNJtJ)
 
 After calling the constructor, `size` should be 0. All of the indices of our array should be `null`.
 
 **After calling `put("A", 1)`:**
 
-<img width="1180" height="861" alt="ht2" src="https://github.com/user-attachments/assets/318ba2a7-6a7a-41c9-b014-c6b4e3e319c5" />
+![ht put A](https://imgur.com/5456BgL)
 
 `null` should be returned. `size` is 1.
 
 **After calling `put("G", 7)`:**
 
-<img width="1180" height="861" alt="ht3" src="https://github.com/user-attachments/assets/51f3db62-eb3d-4127-a37c-c8b92d31f585" />
+![ht put G](https://imgur.com/M310TOB)
 
 `null` should be returned. `size` is 2.
 
 **After calling `put("B", 2)`:**
 
-<img width="1180" height="1230" alt="ht4" src="https://github.com/user-attachments/assets/b60b42cf-12ea-4554-9fc2-4a55f1fb70dd" />
+![ht put B](https://imgur.com/rHZUspO)
 
 
 `null` should be returned. `size` is 3.
 
 **After calling `remove("G")`:**
 
-<img width="1180" height="861" alt="ht5" src="https://github.com/user-attachments/assets/89a4ba5a-e163-4cac-b0a9-cbda9b45af9b" />
+![ht remove G](https://imgur.com/sKVCTnh)
 
 
 `7` should be returned. `size` is 2.
 
 **After calling `put("F", 6)`:**
 
-<img width="1180" height="1232" alt="ht6" src="https://github.com/user-attachments/assets/de653683-5ad1-4a79-8049-1681e1c13143" />
+![ht put F](https://imgur.com/2CeDOnb)
 
 `null` should be returned. `size` is 3.
 
 **After calling `put("A", 2)`:**
 
-<img width="1180" height="1232" alt="ht7" src="https://github.com/user-attachments/assets/b036049d-ecb5-4ec7-9a44-51a52a311b5b" />
+![ht put A again](https://imgur.com/68UgfhG)
 
 The value at node A is replaced. `1` should be returned. `size` is 3.
 
 **After manually calling `expandCapacity()`:**
 
-<img width="1144" height="474" alt="ht8" src="https://github.com/user-attachments/assets/6a61a3d7-7df0-491d-845f-b882b29ee293" />
+![ht expandCapacity](https://imgur.com/EnsoeXy)
 
 All nodes, including nodes in the same chain, are re-hashed.
