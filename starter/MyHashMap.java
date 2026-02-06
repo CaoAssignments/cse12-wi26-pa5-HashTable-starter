@@ -67,7 +67,8 @@ public class MyHashMap<K,V> {
     }
 
     /**
-     * A Node class that holds (key, value) pairs and references to the next node in the linked list
+     * A Node class that holds (key, value) pairs and references to the next 
+     * node in the linked list
      */
     protected class Node<K,V> {
         K key;
