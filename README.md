@@ -51,6 +51,10 @@ Inside, you will find the following files:
     * `MyAlgorithm.java`
     * `CustomTester.java`
 
+#### Completing Task 2
+
+* Fill out and submit the **PA5 Task 2** form on Gradescope.
+
 **Important**: Even if your code does not pass all the tests, you will still be able to submit your homework to receive partial points for the tests that you passed. Make sure your code compiles in order to receive partial credit.
 
 **Read the entire write-up before you start coding.**
