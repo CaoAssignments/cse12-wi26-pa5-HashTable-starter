@@ -526,7 +526,7 @@ public class PublicTester {
     // ----------------MyAlgorithm class----------------
 
     @Test
-    void testMAOneDup() {
+    public void testMAOneDup() {
         int[] transactions = new int[]{1, 2, 2, 3, 4, 5, 6, 7, 8, 9};
         boolean result = MyAlgorithm.hasFraudulentTRs(transactions, 2);
         assertTrue(result);
