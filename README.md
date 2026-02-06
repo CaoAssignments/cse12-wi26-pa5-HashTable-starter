@@ -296,10 +296,10 @@ You will be required to implement the following methods.
 |`public MyHashSet(int initialCapacity)`|Initialize the hash map with the initial capacity given.|Throw an `IllegalArgumentException` if initialCapacity is 0 or negative.|
 |`public boolean add(E element)`|Adds the specified element to this set if it is not already present. Make sure to call MyHashMap put method in either case to ensure the value is replaced for the key if it is different than the current value and to ensure expandCapacity is called if needed. Return `true` if the set did not already contain the specified element or `false` otherwise.|Throw a `NullPointerException` if element is null.|
 |`public boolean remove(E element)`|Removes the specified element from this set if it is present. Return `true` if the set contained the specified element or `false` otherwise.|Throw a `NullPointerException` if element is null.|
+|`public boolean contains(E element)`|Returns true if this set contains the specified element.|Throw a `NullPointerException` if element is null.|
 |`public int size()`|Returns the number of elements in this set (its cardinality).||
 |`public void clear()`|Removes all of the elements from this set.||
 |`public boolean isEmpty()`|Returns true if this set contains no elements.||
-|`public boolean contains(E element)`|Returns true if this set contains the specified element.|Throw a `NullPointerException` if element is null.|
 
 **NOTE**: The methods in `MyHashSet` should be relatively simple if you have implemented the methods in the `MyHashMap` class correctly.
 
