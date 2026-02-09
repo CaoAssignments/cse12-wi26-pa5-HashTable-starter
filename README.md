@@ -341,7 +341,7 @@ MyAlgorithm.hasFraudulentTRs(transactionIds, certainty) -> true
 transactionIds  -> [1, 3, 4, 1, 3, 4]
 certainty       -> 2
 
-MyAlgorithm.hasFraudulentTRs(transactionIds, certainty) -> true
+MyAlgorithm.hasFraudulentTRs(transactionIds, certainty) -> false
 // Since all numbers are more than <b>certainty</b> spaces away from their duplicate, we return false.
 </pre>
 
