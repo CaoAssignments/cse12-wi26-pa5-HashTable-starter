@@ -266,7 +266,7 @@ You will be required to implement the following methods.
 |`public int getCapacity()`|Return the capacity of the hash map.||
 |`public void clear()`|Removes all of the mappings from this hash map.||
 |`public boolean isEmpty()`|If the map is empty, return `true`. Otherwise, return `false`.||
-|`public void expandCapacity()`|Double the capacity of the hash table and rehash all (key, value) pairs into the new hash table. This method should only be called when the map is at or above its maximum load.||
+|`public void expandCapacity()`|Double the capacity of the hash table and rehash all (key, value) pairs into the new hash table. This method should only be called when the map is at or above its maximum load. You should rehash elements in ascending order from index 0 to index n-1 of `hashTable`. Refer to the [Appendix](#appendix) for an example of this behavior.||
 |`public int getHash(K key, int capacity)`|Verify the given key and capacity are valid. Use the given hash function in the starter code to compute hash codes. You do not need to understand how it works. (This hash function ensures the hash code obtained is between 0 and capacity - 1.)|Throw a `NullPointerException` if key is null. Throw an `IllegalArgumentException` if capacity is 0 or negative.|
 
 
